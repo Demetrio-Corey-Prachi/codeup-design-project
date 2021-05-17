@@ -1,96 +1,121 @@
-:root{
-    --backgroundColor:#e6e6e6;
+:root {
+    --backgroundColor: #e6e6e6;
 }
-body{
-    font-family:"abel-regular", serif;
+
+body {
+    font-family: "abel-regular", serif;
     padding: 0;
     margin: 0;
     /*background-color: lightgrey;*/
 }
-.navBar{
+
+.navBar {
     /*margin-top: 6em;*/
-    padding:0;
+    padding: 0;
     position: absolute;
-    left : 0;
-    top:50px;
+    left: 0;
+    top: 50px;
     height: 60px;
     width: 100%;
     background-color: #f0f0f0;
 }
-.logo{
-    margin-top:30px;
+
+.logo {
+    margin-top: 30px;
 }
-.textFont{
-    font-family:"abel-regular", serif;
+
+.textFont {
+    font-family: "abel-regular", serif;
 }
-a{
+
+a {
     color: black;
 }
-img{
+
+img {
     width: 105px;
     height: 105px;
 }
-.imgBorder{
+
+.imgBorder {
     border-radius: 5px;
     border: 10px solid #d0d0d0;
 }
-.red{
+
+.red {
     background-color: #E6563B;
 }
-.yellow{
+
+.yellow {
     background-color: #EB9D3A;
 }
-.green{
+
+.green {
     background-color: #7CB06C;
 }
-.blue{
+
+.blue {
     background-color: #00ABA9;
 }
-.big{
+
+.big {
     height: 200px;
     width: 200px;
-    font-size:xx-large;
+    font-size: xx-large;
     font-weight: bolder;
     border: 10px solid #f0f0f0;
     color: white;
 }
-.small{
+
+.small {
     height: 40px;
     width: 40px;
     font-size: larger;
     font-weight: bolder;
     border: 1px solid #f0f0f0;
 }
-.circle{
-    border-radius: 50%;
-}
-.bgColor{
+.bgColor {
     background-color: var(--backgroundColor);
 }
+
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 10px) {
-    body{
+    body {
         background-color: var(--backgroundColor);
     }
-    .h2{
+
+    .h2 {
         font-size: xxx-large;
     }
-    .companyName{
+
+    .companyName {
         font-size: xxx-large;
     }
+
     /*h1 {font-size:1.5rem;} !*1rem = 16px*!*/
 }
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 576px) {
-    body{
+    body {
         background-color: #bb4e4e;
     }
-    .companyName{
+
+    .companyName {
         font-size: xx-large;
     }
-    .top{
-        top:65px;
+
+    .top {
+        top: 65px;
+    }
+
+    .big {
+        height: 125px;
+        width: 125px;
+        font-size: medium;
+        font-weight: bolder;
+        border: 10px solid #f0f0f0;
+        color: white;
     }
 
     /*h1 {font-size:1.5rem;} !*1rem = 16px*!*/
@@ -98,17 +123,21 @@ img{
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-    body{
+    body {
         background-color: #99ff50;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    body{background-color: #5059ff;}
+    body {
+        background-color: #5059ff;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    body{background-color: #ff506a;}
+    body {
+        background-color: #ff506a;
+    }
 }
