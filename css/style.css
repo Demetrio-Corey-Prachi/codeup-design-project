@@ -124,6 +124,21 @@ img {
     font-size: x-large;
     font-family: 'ANTON', sans-serif;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-facebook {
+    /*background: white;*/
+    color: #3B5998;
+}
+.twitter{
+    color: #3B5998;
+}
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 10px) {
